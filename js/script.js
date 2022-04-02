@@ -14,7 +14,6 @@ async function getData() {
   // Clear result
   result.innerHTML = "";
 
-  //   console.log(results);
   results.forEach((user) => {
     const li = document.createElement("li");
 
