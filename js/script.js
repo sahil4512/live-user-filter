@@ -7,7 +7,7 @@ getData();
 filterUser.addEventListener("input", (e) => filterData(e.target.value));
 
 async function getData() {
-  const res = await fetch("https://randomuser.me/api?results=50");
+  const res = await fetch("https://randomuser.me/api?results=1000");
 
   const { results } = await res.json();
 
